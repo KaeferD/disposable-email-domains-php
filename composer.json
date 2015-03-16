@@ -1,5 +1,5 @@
 {
-    "name": "ivolo/disposable-email-domains",
+    "name": "mapumba/disposable-email-domains-php",
     "description": "disposable domains list",
     "keywords": ["disposable", "domains"],
     "license": "MIT",
@@ -8,6 +8,11 @@
         	"name": "Ilya Volodarsky",
         	"email": "ivolodarsky@gmail.com",
         	"role": "Maintainer"
+        },
+        {
+            "name": "Daniel Käfer",
+            "email": "dan.kaefer@gmail.com",
+            "role": "Maintainer"
         }
     ] 
 }
