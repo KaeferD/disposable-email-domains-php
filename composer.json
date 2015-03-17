@@ -1,6 +1,6 @@
 {
     "name": "mapumba/disposable-email-domains-php",
-    "description": "disposable domains list",
+    "description": "disposable domains check php",
     "keywords": ["disposable", "domains"],
     "license": "MIT",
     "authors": [
@@ -14,5 +14,14 @@
             "email": "dan.kaefer@gmail.com",
             "role": "Maintainer"
         }
-    ] 
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DKaefer": "src/"
+        }
+    }
 }

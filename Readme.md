@@ -7,9 +7,9 @@
 ```php
 $userEmail = "test@example.com";
 if(DisposableEmail::isDisposableEmail($userEmail)){
-  echo 'You are using a disposable email adrdesse';
+  echo 'You are using a disposable email adrdess';
 }else{
-  echo 'You are not unsing a disposable email adrdesse';
+  echo 'You are not unsing a disposable email adrdess';
 }
 ```
 
