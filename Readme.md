@@ -1,34 +1,27 @@
 # disposable-email-domains
 
-  A list of [disposable email domains](http://en.wikipedia.org/wiki/Disposable_email_address) like `mailinator.com`. You can use it to detect or block disposable accounts in your signup process.
+  A list of [disposable email domains](http://en.wikipedia.org/wiki/Disposable_email_address) like `mailinator.com`. You can use it to detect or block disposable accounts in your signup process. This is a fork of [ivolo/disposable-email-domains](https://github.com/ivolo/disposable-email-domains/).
 
 ## Example
 
-```js
-var domains = require('disposable-email-domains');
-```
-```js
-[
-  "0-mail.com",
-  "0815.ru",
-  "0clickemail.com",
-  "mailinator.com"
-  // ..
-]
+```php
+$userEmail = "test@example.com";
+if(DisposableEmail::isDisposableEmail($userEmail)){
+  echo 'You are using a disposable email adrdesse';
+}else{
+  echo 'You are not unsing a disposable email adrdesse';
+}
 ```
 
 ## Installation
   
 ```
-$ npm install disposable-email-domains
-```
-```
-$ component install ivolo/disposable-email-domains
+$ composer install mapumba/disposable-email-domains-php
 ```
 
 ## Contributing
 
-Add new disposable domains in the [index.json](https://github.com/ivolo/disposable-email-domains/blob/master/index.json).
+Add new disposable domains in the orginal [repository](https://github.com/ivolo/disposable-email-domains/).
 
 ## Licence
 
